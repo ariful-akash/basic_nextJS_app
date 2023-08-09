@@ -1,0 +1,23 @@
+app (Directory) => This is the root directory, and the default routing begins here. All folders and files are kept here. All subfolders, such as subroutes or nested root forms, are listed here. In this folder, React error boundaries, such as "error.js" and "not-found.js," as well as React suspense boundaries, such as "loading.js," are used to beautify and professionalize the project.
+
+    global.css (File) => Contains the style sheet for the project, which may be accessed from anywhere inside this project. 
+
+    layout.js (File) => This is where the nextjs project starts. All the initial requirement like css, extra dependencies which are needed for entire project are loaded here. This page is load only one time.
+
+    page.js (File) => This is the home page for default nextjs project.
+
+    page.module.css (File) => For module wise css deployment it needed . Same class name could be define for different module.
+
+node_modules (Directory) => Contains all the React dependencies packages: react , react-dom , and their transitive dependencies like webpack, babal, rxjs, ESLint, etc., to build and run a React project.
+
+public (Directory) => Next.js can serve static files, like images, audio, and video under a public folder in the root directory.
+
+.gitignore (File) => Selects the folders and files that will be uploaded to github.
+
+jsconfig.json (File) => Specifies the root files and the options for the features provided by the JavaScript language service.
+
+next.config.js (File) => Most important file of next js. The project's strict mood can be enabled/disabled from this file. Confidential environmental credentials, application's base path, subdomain functionality, API URL, request headers, cache functionality, powered by hidden, .next folder name customization manages here.
+
+package-lock.json (File) => This is used to lock down the dependencies for a project so that all developers working on the project use the same versions of the dependencies.
+
+package.json (File) => Keeps track of the packages and commands used by the script.
