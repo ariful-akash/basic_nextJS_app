@@ -1,0 +1,1 @@
+# basic_nextJS_app
